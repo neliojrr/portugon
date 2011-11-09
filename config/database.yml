@@ -12,7 +12,7 @@ development:
   database: portugon_development
   pool: 5
   username: root
-  password:
+  password: neliao
   socket: /var/lib/mysql/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -25,7 +25,7 @@ test:
   database: portugon_test
   pool: 5
   username: root
-  password:
+  password: neliao
   socket: /var/lib/mysql/mysql.sock
 
 production:
@@ -35,5 +35,5 @@ production:
   database: portugon_production
   pool: 5
   username: root
-  password:
+  password: neliao
   socket: /var/lib/mysql/mysql.sock
